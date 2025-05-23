@@ -1,1 +1,1 @@
-<h1>PAGE ABOUT</h1>
+<h1>ABOUT PAGE</h1>
