@@ -4,10 +4,11 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build && touch docs/.nojekyll",
-		"preview": "vite preview"
-	},
+	"dev": "vite dev",
+	"build": "vite build && touch docs/.nojekyll",
+	"preview": "vite preview",
+	"deploy": "npm run build && git add . && git commit -m 'deploy' && git push"
+},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/adapter-static": "^3.0.8",
